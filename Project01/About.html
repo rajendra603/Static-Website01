@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="Images/construction_site_logo.png" alt="logo"></a>
+           <div class="nav-links" id="navLinks">
+           
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <h1>About us</h1>
+    </section>
+
+    <!-- Content of about section -->
+ 
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the one who take cares of your dream house</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi provident quidem, obcaecati, aperiam consequuntur repellat consequatur laborum ullam atque, reiciendis voluptatem debitis ad? Veniam dolores similique accusantium minus commodi odit aut sint dolorem excepturi praesentium placeat expedita sit inventore quam corporis, facilis fugiat. Illo, recusandae ipsam corporis exercitationem obcaecati id!</p>
+                <a href="" class=" red-btn">EXPLORE NOW </a>
+            </div>
+            <div class="about-col">
+                <img src="Images/About_01.jpg" alt="Image">
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer">
+        <h4>About us </h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aut.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>       
+            <i class="fa-brands fa-whatsapp"></i>      
+            <i class="fa-brands fa-instagram"></i>         
+        </div>
+    </section>
+
+    <script>
+       var  navLinks = document.getElementById("navLinks")
+      function showmenu(){
+        navLinks.style.right ="0";
+      }
+      function hidemenu(){
+        navLinks.style.right ="-200px";
+      }
+    </script>
+</body>
+</html>

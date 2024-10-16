@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+           <a href="index.html"><img src="Images/construction_site_logo.png" alt="logo"></a>
+           <div class="nav-links" id="navLinks">
+           
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <h1>Contact us</h1>
+    </section>
+
+    <!-- Content of Contact us section -->
+     <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120073.18649111116!2d75.30520145000001!3d19.870096250000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bdb9815a369bc63%3A0x712d538b29a2a73e!2sChhatrapati%20Sambhajinagar%20(Aurangabad)%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1729057208084!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </section>
+    
+
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>Adress: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, nobis.</h5>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>
+                        <h5>loremipsum23@gmail.com</h5>
+                        <p>Email us your query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="enter your name" required>
+                    <input type="emial" placeholder="enter your email" required>
+                    <input type="text" placeholder="enter your subject" required>
+                    <textarea rows="8" placeholder="message" required></textarea>
+                    <button type="submit" class="red-btn">Send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+
+
+    <section class="footer">
+        <h4>About us </h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aut.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>       
+            <i class="fa-brands fa-whatsapp"></i>      
+            <i class="fa-brands fa-instagram"></i>        
+        </div>
+    </section>
+
+    <script>
+       var  navLinks = document.getElementById("navLinks")
+      function showmenu(){
+        navLinks.style.right ="0";
+      }
+      function hidemenu(){
+        navLinks.style.right ="-200px";
+      }
+    </script>
+</body>
+</html>

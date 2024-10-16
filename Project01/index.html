@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <section class="header">
+        <nav>
+           <a href="index.html"><img src="Images/construction_site_logo.png" alt="logo"></a>
+           <div class="nav-links" id="navLinks">
+           
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+    <div class="textbox">
+        <h1>We shape your dreams </h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos quam voluptatum ipsam.
+            <br> Atque assumenda recusandae sunt ab quo, iusto excepturi.</p>
+        <a href="" class="btn">Visit Us to know more</a>
+    </div>
+    </section>
+
+    <section class="course">
+        <h1>Our Specialities</h1>
+        <p class="p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus, soluta.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure inventore ratione neque quae maxime eos, molestias totam saepe mollitia.</p>
+    
+            </div>
+
+            <div class="course-col">
+                <h3>Lorem ipsum dolor sit amet. </h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure inventore ratione neque quae maxime eos, molestias totam saepe mollitia.</p>
+    
+            </div>
+
+            <div class="course-col">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure inventore ratione neque quae maxime eos, molestias totam saepe mollitia.</p>
+    
+            </div>
+        </div>
+    </section>
+    <section class="campus">
+        <h1>Our global sites in  </h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, magnam.</p>
+    <div class="row">
+        <div class="campus-col">
+            <img src="Images/London.jpg" alt="image">
+            <div class="layer">
+                <h3>London</h3>
+            </div>
+        </div>
+
+        <div class="campus-col">
+            <img src="Images/New-york.jpg" alt="image">
+            <div class="layer">
+                <h3>NEW YOK</h3>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="Images/dubai.jpg" alt="image">
+            <div class="layer">
+                <h3>DUBAI</h3>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis doloremque sit voluptatem consequatur esse repellat porro ab, in nam ratione!</p>
+        
+        <div class="row">
+            <div class="facilities-col">
+                <img src="Images/01.jpg" alt="logo">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, soluta?</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit sint neque ab nemo maxime assumenda magnam. Commodi nihil unde perspiciatis!</p>
+
+            </div>
+
+            <div class="facilities-col">
+                <img src="Images/02.jpg" alt="logo">
+                <h3>Lorem ipsum dolor sit amet consectetur adipisicing.</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit sint neque ab nemo maxime assumenda magnam. Commodi nihil unde perspiciatis!</p>
+
+            </div>
+
+            <div class="facilities-col">
+                <img src="Images/03.jpg" alt="logo">
+                <h3>Lorem ipsum dolor sit amet.</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit sint neque ab nemo maxime assumenda magnam. Commodi nihil unde perspiciatis!</p>
+
+            </div>
+
+            
+        </div>
+
+
+    </section>
+
+
+    <section class="contact">
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eaque dolorum ad itaque iusto quam distinctio nostrum, quia fugiat nesciunt.</h1>
+        <a href="" class="btn">Contact us </a>
+    </section>
+
+
+    <section class="footer">
+        <h4>About us </h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, aut.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>       
+            <i class="fa-brands fa-whatsapp"></i>      
+            <i class="fa-brands fa-instagram"></i>    
+                
+        </div>
+    </section>
+
+    <script>
+       var  navLinks = document.getElementById("navLinks")
+      function showmenu(){
+        navLinks.style.right ="0";
+      }
+      function hidemenu(){
+        navLinks.style.right ="-200px";
+      }
+    </script>
+</body>
+</html>
